@@ -17,9 +17,9 @@ public class DatabaseUtil {
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
 				connection = DriverManager.getConnection(
-						"jdbc:mysql://localhost:3306/doanjava2?characterEncoding=utf8",
-						"root",
-						"");
+						"jdbc:mysql://localhost:3306/bd3fjz6oe8ygxjtbuisg?characterEncoding=utf8",
+						"uvnjqcvxz04pntxl",
+						"cFsZaXEFkYfObYJugbKv");
 			} catch (ClassNotFoundException e) {
 				// TODO Auto-generated catch block
 				System.out.println("ClassNotFoundException " + e.getMessage());
